@@ -1,0 +1,58 @@
+html:
+
+<button>...</button>
+<p>...</p>
+<a>...</a>
+<strong>...</strong>
+<u>...</u>
+<span></span>
+<link>
+<img>
+<input>
+
+
+
+
+
+
+css:
+
+class özelliği birden fazla html tagında aynı olabilir ve hepsine etki eder.
+
+hover geçici classı nesnenin üzerine gelindiğinde olacakları ayarlar
+active pseudo classı nesneye tıklandığında olacakları ayarlar
+opacity özelliği opaklığı ayarlar.0-1 arası değer alır
+transition özelliği önce geçişi ayarlamak istediğin özelliği yaz sonra süresini.(example: opacity 1s),farklı bir özelliğe daha geçiş eklemek için vigülle ayırıp aynı şekil yapabilirsin.
+box-shadow özelliği 4 parçadan oluşur. horizontal-vertical-blurred-color (example: 10px,5px,5px,red)
+
+rgba(); rgb ile aynı sayılır tek fark a(alpha) yani opacity(0-1 arası değer alır) Rengin daha şeffaf,opak görünmesini sağlar
+
+margin : kutunun dışındaki boşluklarla ilgilenir.
+padding: kutunun içindeki boşluklarla ilgilenir. Bir kutuya height ve width vermek yerine padding vererek kutuyu sınırlamamış oluruz.
+
+yazıya eklenen width satıra bölmek için.
+
+html entity : htmlde bazı özel işaretlerin kodu vardır. İşaretleri sayfada kullanmak için kodu kullanmak gerekir.
+
+<p></p> paragraflar default olarak top ve bottom margin oluştururlar.
+
+css specificity : özel bir sınıfı belirten css classı genel bir tagı belirtenden daha özeldir. Bu yüzden öncelik ondadır.(example: .title{} > .p{} )
+
+<link rel="stylesheet" href="filepaths">
+
+Google fonts sitesinden fontları link ile projene aktarabilirsin.
+
+display feature:
+block elements(bütün satırı kapsar)
+inline-block elements(ihtiyacı kadar yer kaplar)
+inline elements
+
+block to inline block
+inline block to block
+display özelliği ile bu özellikleri değiştirebiliriz
+
+<div></div> container olarak kullanılır.
+
+
+
+

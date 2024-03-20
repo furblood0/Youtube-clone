@@ -53,12 +53,12 @@ display özelliği ile bu özellikleri değiştirebiliriz
 
 <div></div> container olarak kullanılır.
 
-css grid'i tablo gibi düşün rows and columns
 display:grid;
+css grid'i tablo gibi düşün rows and columns
 
 grid-template-columns: 100px 1fr   100px ve 1freespace sütunlarında bir tablo oluştur. 3. div oluşturulduğunda diğer satıra(row) geçer.   
 2fr 1fr dan iki kat fazla yer kaplar.Başındaki sayılar oranı ifade eder.
-
+column-gap ile sutünlar arasına,row-gap ile satırlar arasına boşluk koyabilirsin.
 
 
 

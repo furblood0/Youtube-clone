@@ -19,31 +19,17 @@
       display: block;
     }
     .container{
-      width: 300px;
-      display: inline-block;
-      vertical-align: top;
       margin-right: 10px;
     }
     .video{
       margin-bottom: 12px;
     }
     .video-photo{
-      width: 300px;
-      display: block;
+      width: 100%;
     }
-
     .channel-photo{
       width: 40px;
       border-radius: 50px;
-    }
-    .channel{
-      display: inline-block;
-      width: 50px;
-      vertical-align: top;
-    }
-    .video-info{
-      display: inline-block;
-      width: 240px;
     }
     .video-title{
       font-weight: 500;
@@ -60,8 +46,16 @@
       font-size: 12px;
       color: rgb(96, 96, 96);
     }
-
-
+    .video-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 16px;
+      row-gap: 40px;
+    }
+    .channel-grid{
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
 
 
 
@@ -77,11 +71,13 @@
 
   <input class="search-bar" type="text" placeholder="Search">
 
+<div class="video-grid"> 
+
   <div class="container">
     <div class="video">    
       <img class="video-photo" src="video-photos/thumbnail-1.webp" alt="thumbnail-1">
     </div>
-    <div>
+    <div class="channel-grid">
       <div class="channel">
         <img class="channel-photo" src="channel-photos/channel-1.jpeg" alt="channel-1">
       </div>
@@ -97,7 +93,7 @@
     <div class="video">    
       <img class="video-photo" src="video-photos/thumbnail-2.webp" alt="thumbnail-2">
     </div>
-    <div>
+    <div class="channel-grid">
       <div class="channel">
         <img class="channel-photo" src="channel-photos/channel-2.jpeg" alt="channel-2">
       </div>
@@ -110,12 +106,111 @@
         </p>
         <p class="video-status">
           19M views &#183; 4 years ago
-
         </p>
       </div>
     </div>
   </div>
 
+<div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-3.webp" alt="thumbnail-3">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-3.jpeg" alt="channel-3">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+        <p class="video-author">SSSniperWolf</p>
+        <p class="video-status">12M views &#183; 1 year ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-4.webp" alt="thumbnail-4">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-4.jpeg" alt="channel-4">
+      </div>
+      <div class="video-info">
+        <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+        <p class="video-author">Veritasium</p>
+        <p class="video-status">18M views &#183; 4 months ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-5.webp" alt="thumbnail-5">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-5.jpeg" alt="channel-5">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+        <p class="video-author">CS Dojo</p>
+        <p class="video-status">519K views &#183; 5 years ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-6.webp" alt="thumbnail-6">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-6.jpeg" alt="channel-6">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+        <p class="video-author">MrBeast</p>
+        <p class="video-status">141M views &#183; 1 year ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-7.webp" alt="thumbnail-7">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-7.jpeg" alt="channel-7">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+        <p class="video-author">RealLifeLore</p>
+        <p class="video-status">6.6M views  &#183; 1 year ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="video">    
+      <img class="video-photo" src="video-photos/thumbnail-8.webp" alt="thumbnail-8">
+    </div>
+    <div class="channel-grid">
+      <div class="channel">
+        <img class="channel-photo" src="channel-photos/channel-8.jpeg" alt="channel-8">
+      </div>
+      <div class="video-info">
+        <p class="video-title">Inside The World's Biggest Passenger Plane</p>
+        <p class="video-author">Tech Vision</p>
+        <p class="video-status">3.7M views &#183; 10 months ago</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</div>
 
 
 

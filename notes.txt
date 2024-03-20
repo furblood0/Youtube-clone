@@ -42,11 +42,6 @@ css specificity : özel bir sınıfı belirten css classı genel bir tagı belir
 
 Google fonts sitesinden fontları link ile projene aktarabilirsin.
 
-display feature:
-block elements(bütün satırı kapsar)
-inline-block elements(ihtiyacı kadar yer kaplar)
-inline elements
-
 block to inline block
 inline block to block
 display özelliği ile bu özellikleri değiştirebiliriz
@@ -60,6 +55,28 @@ grid-template-columns: 100px 1fr   100px ve 1freespace sütunlarında bir tablo 
 2fr 1fr dan iki kat fazla yer kaplar.Başındaki sayılar oranı ifade eder.
 column-gap ile sutünlar arasına,row-gap ile satırlar arasına boşluk koyabilirsin.
 
+
+display : 
+1-block elements(bütün satırı kapsar)
+2-inline-block elements(ihtiyacı kadar yer kaplar)
+3-inline elements
+4-grid
+5-flex
+
+flex gride benziyor ama daha flexible
+display:flex;
+flex-direction:row;
+
+flex:1;flex:2  1fr,2fr gibi oranlardır.Nekadar yer kaplayacağını söyler.
+
+grid : rigid layout
+flexbox : flexible layout
+
+gridde bir divde değişiklik yaptığında uzunluğu değişebilir
+flexboxta bir divin yerini değiştirdiğinde uzunluğu değişmez,sadece yeri değişir.
+
+justify-content: (start)(center)(end)(space-between) horizontal flexbox özelliği
+align-items:(stretch)(start)(end)(center) vertical flexbox özelliği
 
 
 

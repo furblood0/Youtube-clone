@@ -1,3 +1,4 @@
 blurred : bulanık
 nesting : yuvalama
+rigid : katı
 

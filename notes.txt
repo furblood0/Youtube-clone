@@ -85,5 +85,39 @@ width: 0; (küçült)
 
 
 css position:
+position: static; (default position özelliğidir)
+position: fixed; (sayfada sabit kalmasını sağlar,sayfa kaydırılsa bile)
+position: absolute;
+position: relative;
+
+fixed 4 özelliği var:
+top:0px
+left:10px
+right:0px
+bottom:100px
+height
+width
+
+absolute özelliği de fixed gibi top,left,height... özelliklerini alabiliyor.
+
+***absolute sayfa üzerine yerleşir
+***fixed browser window üzerine yerleşir
+
+browser windows: kullanıcının tarayıcısında gördüğü ekrandır,sayfayı kaydırdığında değişir.
+sayfa üzerinde: kullanıcı bakmadığında bile orada durması için kullanılan bişey
+
+z-index değeri yüksek olan sayfada daha önde gözükür.
+
+absolute, fixed içinde kullanılabilir.(example: kutunun sağ üstüne bir close bar(*))
+sayfayı kaydırdığında fixed gibi davranır.
+
+absolute, relative içinde de kullanılabilir.(video köşesinde süreyi gösteren bir kutu)
+sayfayı kaydırdığında normal bir şekilde kayar fixed gibi davranmaz.
+
+
+
+
+
+
 
 

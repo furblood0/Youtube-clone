@@ -78,10 +78,12 @@ flexboxta bir divin yerini değiştirdiğinde uzunluğu değişmez,sadece yeri d
 justify-content: (start)(center)(end)(space-between) horizontal flexbox özelliği
 align-items:(stretch)(start)(end)(center) vertical flexbox özelliği
 
+search-bardaki placeholdera erişmek için .search-bar::placeholder{}
+
+flex-shrink : 0; (küçültme)
+width: 0; (küçült)
 
 
-
-
-
+css position:
 
 

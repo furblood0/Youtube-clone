@@ -1,4 +1,5 @@
 blurred : bulanık
 nesting : yuvalama
 rigid : katı
+shrink : küçültmek
 

@@ -114,10 +114,12 @@ sayfayı kaydırdığında fixed gibi davranır.
 absolute, relative içinde de kullanılabilir.(video köşesinde süreyi gösteren bir kutu)
 sayfayı kaydırdığında normal bir şekilde kayar fixed gibi davranmaz.
 
+padding 4 değer alırsa top,right,bottom,left
+padding 3 değer alırsa top,right-left,bottom
+padding 2 değer alırsa top-bottom,right-left
+padding 1 değer alırsa top-bottom-right-left
 
-
-
-
-
+staticte z-index herzaman sayfanın arkasında kalır
+relative ,fixed, absolute işin içine girdiğinde z-index belirtmek gerekir.
 
 

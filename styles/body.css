@@ -3,6 +3,19 @@
 }
 .video{
   margin-bottom: 12px;
+  position: relative;
+}
+.video-time{
+  position: absolute;
+  right: 4px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  padding: 4px 4px 4px 4px;
+  border-radius: 2px;
 }
 .video-photo{
   width: 100%;

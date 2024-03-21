@@ -11,6 +11,7 @@
   right: 0;
   background-color: white;
 
+  z-index: 100;
   border-bottom: 1px solid #dedede;
 }
 .left-section{
@@ -84,4 +85,18 @@
 .my-channel-icon{
   height: 34px;
   border-radius: 50%;
+}
+.notifications{
+  position: relative;
+}
+.notifications-number{
+  position: absolute;
+  background-color: #cc0000;
+  top: 0;
+  right: -2px;
+  color: white;
+  font-family: Roboto,Arial;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
 }

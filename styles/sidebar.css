@@ -5,5 +5,27 @@
   top: 70px;
   width: 72px;
   background-color: white;
-  border-right: 1px solid #dedede;
+  z-index: 200;
+  padding-top: 4px;
+}
+
+.sidebar-link{
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar-link img{
+  height: 26px;
+  margin-bottom: 4px;
+}
+.sidebar-link span{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
+.sidebar-link:hover{
+  background-color: #d5d3d3;
 }
